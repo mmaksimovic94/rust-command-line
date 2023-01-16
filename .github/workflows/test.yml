@@ -12,5 +12,5 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - run: cargo test -- body poem.txt
+      - run: cargo test
       - run: echo "🍏 This job's status is ${{ job.status }}."
